@@ -1,0 +1,64 @@
+
+/*правило для элементов main*/
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*правило для элементов относящихся к классу a_footer*/
+.a_footer {
+    display: block;
+}
+h1 {
+    text-align: center;
+    padding: 20px 10px 0px 0px;
+    font-size: 24px;
+    font-weight: 900;
+    font-size: 100%;
+}
+
+h2 {
+    text-align: left;
+    padding: 20px 10px 0px 0px;
+    font-size: 22px;
+    font-weight: 900;
+    font-size: calc(10px + 12 * (100vw / 1280));
+}
+
+h3 {
+    text-align: left;
+    padding: 20px 10px 0px 0px;
+    font-size: 20px;
+    font-weight: 10;
+    font-size: calc(10px + 10 * (100vw / 1280));
+}
+
+/*подключаем картинку для шапки*/
+header {
+    background: url('https://d626yq9e83zk1.cloudfront.net/files/2017/12/26-770x425.jpg') bottom center no-repeat;
+    background-size: 100%;
+    
+    color: rgb(255, 0, 230);
+    text-align: center;
+    height: 150px;
+    max-width: 100%;
+}
+adress {
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+.carousel-item{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
